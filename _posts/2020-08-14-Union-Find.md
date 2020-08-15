@@ -75,7 +75,7 @@ void Union(int f, int s){
 ___
 
 각 노드가 깊이를 뜻하는 rank를 가지며,  
-rank가 큰 노드가 루트가 될 수 있도록 한다.
+Union할때 rank가 더 큰 노드가 루트가 되도록 한다.
 
 rank는 1로 초기화한다. (초기에는 자기자신을 루트로하는 깊이가 1인 트리구조를 띄기 때문)
 rank가 증가하는 경우는 같은 높이의 트리를 합칠때다. (적어도 하나의 트리의 rank가 증가함) 
@@ -116,7 +116,7 @@ rank[3] = 3
 void Union(int f, int s){
     f = find(f);
     s = find(s);
-    if(rank[f] > rank[s]) // f에 더 작은 rank가 오도록 함
+    if(rank[f] < rank[s]) // f에 더 큰 rank를 가진 노드가 오도록 함
         swap(f, s);
     if(rank[f] == rank[s]) // 같은 랭크의 경우 루트가 될 집합에 랭크 추가
         ++rank[f];
