@@ -1,7 +1,7 @@
 ---
 title: "유니온 파인드(Union Find)"
 date: 2020-08-14 20:00:00 +0400
-categories: Algorithm
+categories: Algorithm Union-Find
 ---
 # 유니온 파인드(Union Find)
 
