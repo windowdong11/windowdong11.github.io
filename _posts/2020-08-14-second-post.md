@@ -1,7 +1,7 @@
 ---
 title: "안녕하세오 벌레에오..!"
 date: 2020-08-14 18:26:00 +0400
-categories: test
+categories: diary algorithm-competition-log
 ---
 
 국민대학교 알고리즘 대회 본선 0점맞은 벌레에오..
