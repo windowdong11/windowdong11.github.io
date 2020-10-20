@@ -275,12 +275,13 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
-      toc: true
+      toc: false
       toc_sticky: true
   # _pages
   - scope:
@@ -288,5 +289,6 @@ defaults:
       type: pages
     values:
       layout: single
+      classes: wide
       author_profile: true
 
