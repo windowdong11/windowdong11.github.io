@@ -29,7 +29,7 @@ toc : true
 
 ## 용어
 
-![스택](/assets/images/fastchallenge/day3/stack.PNG)
+![스택](/assets/images/fastchallenge/day3/stack.png)
 
 + Push  
 push는 스택에 요소를 집어넣는다.
