@@ -277,12 +277,13 @@ defaults:
       layout: single
       classes: wide
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
       toc: false
       toc_sticky: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
