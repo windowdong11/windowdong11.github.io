@@ -11,7 +11,6 @@ usemathjax: true
 
 1. dfs
 2. 그리디 - 1
-3. 그리디 - 2
 
 ## DFS(깊이 우선 탐색)
 
