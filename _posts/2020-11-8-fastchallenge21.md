@@ -27,7 +27,7 @@ usemathjax: true
 
 ## 다익스트라 구현
 
-![graph](/assets/images/fastchallenge/day21/graph.PNG)
+![graph](/assets/images/fastchallenge/day21/graph.png)
 
 ```py
 graph = {
