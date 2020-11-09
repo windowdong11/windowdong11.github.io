@@ -24,51 +24,6 @@ $O(E)$개의 노드가 삽입되어 있을때, 우선순위 큐의 시간복잡�
 ## 다익스트라 노드/간선 방문횟수 확인
 
 ```py
-import queue
-import copy
-import heapq
-import math
-graph = {
-    'A': {'B': 8, 'C': 1, 'D': 2},
-    'B': {},
-    'C': {'B': 5, 'D': 2},
-    'D': {'E': 3, 'F': 5},
-    'E': {'F': 1},
-    'F': {'A': 5}
-}
-
-def BFS(graph, start):
-    visited = {node : False for node in graph}
-    q = [start]
-    visited[start] = True
-    while q:
-        cur_node = q.pop(0)
-        print(cur_node)
-        for node in graph[cur_node]:
-            if not visited[node]:
-                visited[node] = True
-                q.append(node)
-        print("next : ", end="")
-        for e in q:
-            print(e, end=" ")
-        print()
-        
-def DFS(graph, start):
-    visited = {node : False for node in graph}
-    q = [start]
-    visited[start] = True
-    while q:
-        cur_node = q.pop()
-        print(cur_node)
-        for node in graph[cur_node]:
-            if not visited[node]:
-                visited[node] = True
-                q.append(node)
-        print("next : ", end="")
-        for e in q:
-            print(e, end=" ")
-        print()
-        
 def dijkstra(graph, start, end):
     distance = {node : math.inf for node in graph}
     prevNode = {node: None for node in graph}
