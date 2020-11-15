@@ -79,7 +79,7 @@ dfs하면서 조건이 맞는지 검색하고(Promising),
 
 ![트리](/assets/images/fastchallenge/day28/statespacetree.png)
 
-## 내가 듣는 인강
+## 마지막
 
 백트래킹도 쓸일많아서 잘 알아둬야한다.
 
