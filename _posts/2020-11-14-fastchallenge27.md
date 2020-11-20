@@ -1,5 +1,5 @@
 ---
-title: "자료구조/👉알고리즘 - 23"
+title: "자료구조/👉알고리즘 - 27"
 date: 2020-11-14 19:00:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
