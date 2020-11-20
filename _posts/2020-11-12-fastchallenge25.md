@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 25회차 미션
-"
+title: "자료구조/👉알고리즘 - 25(패캠강의)"
 date: 2020-11-12 23:30:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -138,7 +137,3 @@ Kruskal(mygraph)
 ## 마지막
 
 오늘 11시부터 작성하느라 12시전에 작성하기 빠듯했다.ㅠㅠ
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

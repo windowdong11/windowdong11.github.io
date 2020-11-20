@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 기술면접👉코딩테스트인강 100% 환급챌린지 32회차 미션
-"
+title: "자료구조/👉알고리즘 - 23(패캠강의)"
 date: 2020-11-19 23:24:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -223,7 +222,3 @@ block = 한 변의 길이를 $(fx + tx)/2$로 하는 정사각형 형태의 부�
 ## 0 만들기
 
 [0 만들기](https://www.acmicpc.net/problem/7490)
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

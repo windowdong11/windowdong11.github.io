@@ -47,6 +47,12 @@ Event Driven 방식 : 이벤트 구동 방식
 handler에서 각 worker로 전달하고,
 worker에서 처리한다.
 
-## proxy, 도커, 컨테이너, 함수형 프로그래밍, orm, odm
+## proxy
+
+proxy : 대리  
+
+
+
+## , 도커, 컨테이너, 함수형 프로그래밍, orm, odm
 
 내일 추가예정

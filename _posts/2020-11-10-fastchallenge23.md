@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 23회차 미션
-"
+title: "자료구조/👉알고리즘 - 23(패캠강의)"
 date: 2020-11-10 20:00:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -104,7 +103,3 @@ Union-Find를 소개하고, Union-Find로 넘어가기 시작했다.
 
 다음 포스트에서 Union-Find를 마무리짓고, 크루스칼을 다시 정리하겠다.
 이번 포스트는 Union-Find가 왜 필요한가? + Union-Find 기본 구현정도로만 보면 되겠다.
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

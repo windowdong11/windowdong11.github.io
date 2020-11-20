@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 18회차 미션
-"
+title: "자료구조/👉알고리즘 - 18(패캠강의)"
 date: 2020-11-5 20:20:00
 categories: fastcampus-challenge Algorithm-Note
 toc : true
@@ -123,7 +122,3 @@ def BFS(graph, start):
 덕분에 한 강의를 3번씩 본다ㅋㅋㅋㅋㅋㅋㅋ
 
 ![수강끝](/assets/images/fastchallenge/day18/수강끝.PNG)
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

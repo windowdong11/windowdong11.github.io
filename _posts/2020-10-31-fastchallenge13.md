@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 13회차 미션
-"
+title: "자료구조/👉알고리즘 - 13(패캠강의)"
 date: 2020-10-31 10:20:00
 categories: fastcampus-challenge Algorithm-Note
 toc : true
@@ -152,6 +151,3 @@ print(checkSortFunc(qsort))
 ## 마지막
 
 (TMI : c++ 알고리즘 헤더파일의 sort함수는 quicksort, heapsort, insertionsort(삽입정렬) 세가지로 구현된 Introsort로 구현되어있다.)
-
-# 내가 듣는 인강
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

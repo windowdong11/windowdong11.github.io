@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 8회차 미션
-"
+title: "👉자료구조/알고리즘 - 8(패캠강의)"
 date: 2020-10-26 22:00:00 +0400
 categories: fastcampus-challenge DataStructure-Note
 toc : true
@@ -119,7 +118,3 @@ while data:
 가장 재미있으면서 :) , 가장 화날 수도 있는 부분 :(
 
 (오늘은 글자보다 코드가 더 많네?)
-
-# 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

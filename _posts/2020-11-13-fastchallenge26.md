@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 기술면접👉코딩테스트인강 100% 환급챌린지 26회차 미션
-"
+title: "자료구조/👉알고리즘 - 23(패캠강의)"
 date: 2020-11-13 23:27:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -86,8 +85,4 @@ prim(graph, 'A')
 다음 강의에서는 개선된 프림 알고리즘을 구현할 것이다.
 
 ![수강](/assets/images/fastchallenge/day26/수강.PNG)  
-+깨알 오타, 알고르즘ㅋㅋ
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**
++깨알 오타, 알고르즘

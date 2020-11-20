@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 기술면접👉코딩테스트인강 100% 환급챌린지 29회차 미션
-"
+title: "자료구조/👉알고리즘 - 23(패캠강의)"
 date: 2020-11-16 19:00:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -86,7 +85,3 @@ bfs, dfs, 다익스트라 알고리즘, 크루스칼, 프림 알고리즘 (그�
 
 여기까지가 자료구조/알고리즘 파트였고,  
 다음부터는 유형별 문제풀이 파트다.  
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

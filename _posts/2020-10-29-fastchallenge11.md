@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 11회차 미션
-"
+title: "👉자료구조/알고리즘 - 11(패캠강의)"
 date: 2020-10-29 17:20:00
 categories: fastcampus-challenge DataStructure-Note
 toc : true
@@ -104,6 +103,3 @@ c같은 경우 자료형마다 크기가 정해져있어 사용되는 메모리 
 (파이썬은 변수 하나에 얼마나 먹는지 모르겠다. 찾아본적이 없어서)  
 
 ![수강인증](/assets/images/fastchallenge/day11/수강인증.PNG)  
-
-# 내가 듣는 인강
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

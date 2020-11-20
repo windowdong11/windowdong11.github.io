@@ -1,7 +1,6 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 15회차 미션
-"
-date: 2020-11-2 00:00:00
+title: "자료구조/👉알고리즘 - 15(패캠강의)"
+date: 2020-11-2 19:00:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
 usemathjax: true
@@ -88,7 +87,3 @@ def checkSearchFunc(func, wacnt = 10, warange = 10, maxrand=1000, elemcnt = 10, 
 (재귀함수로 짜면 함수 스택이 쌓여서.. 사실 탐색을 직접짜서 쓸일이 거의 없다.)
 
 ![수강인증](/assets/images/fastchallenge/day15/수강인증.PNG)
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

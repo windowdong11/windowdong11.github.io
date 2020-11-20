@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 24회차 미션
-"
+title: "자료구조/👉알고리즘 - 24(패캠강의)"
 date: 2020-11-11 21:00:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -147,7 +146,3 @@ Find이후 아래 코드만 추가하면 된다.
 if p1 == p2:
     return
 ```
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

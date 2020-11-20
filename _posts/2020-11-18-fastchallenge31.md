@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 기술면접👉코딩테스트인강 100% 환급챌린지 31회차 미션
-"
+title: "자료구조/👉알고리즘 - 23(패캠강의)"
 date: 2020-11-18 00:00:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -181,6 +180,7 @@ $정렬한 수 = \sum_{e \in l} e * 10^{index}$
 
 ![소트인사이드](/assets/images/fastchallenge/day31/소트인사이드.PNG)
 
-## 내가 듣는 인강
+## 마지막
 
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**
+포스트는 써놓고 제출 안하는 바람에 미션 실패  
+그래도 인강 다 들을 때까지는 쓰자

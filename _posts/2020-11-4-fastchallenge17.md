@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 17회차 미션
-"
+title: "자료구조/👉알고리즘 - 17(패캠강의)"
 date: 2020-11-4 22:41:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -107,7 +106,3 @@ graph['J'] = ['I']
 어떤 노드를 딕셔너리의 Key, 인접 노드들을 value로 사용하는데,  
 인접 노드가 하나가 아닐 수 있으므로 value는 리스트를 사용해서 표현한다.  
 다른 방법들이 있지만, 이 구조 너무 편한 것..
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

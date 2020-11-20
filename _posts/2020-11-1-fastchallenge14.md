@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 14회차 미션
-"
+title: "자료구조/👉알고리즘 - 14(패캠강의)"
 date: 2020-11-1 14:58:00
 categories: fastcampus-challenge Algorithm-Note
 toc : true
@@ -150,7 +149,3 @@ def checkSortFunc(func, maxrand=1000 , elemcnt = 10, repeatcnt = 10, printlist =
 예전에 C로 병합정렬만 주구장창 구현했던 적이 있는데,  
 그래서인지 도움이 많이 됬다.  
 뚝딱 구현되서 다행이다.
-
-# 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

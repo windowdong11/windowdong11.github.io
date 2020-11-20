@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 10회차 미션
-"
+title: "자료구조/👉알고리즘 - 10(패캠강의)"
 date: 2020-10-28 17:20:00 +0400
 categories: fastcampus-challenge Algorithm-Note
 toc : true
@@ -124,7 +123,3 @@ def checkSortFunc(func):
 계속 이어졌으면 좋겠다.  
 이어지지 않더라도 계속 50일간 기록을 남겨둬야지.  
 엉엉 ㅠㅠ
-
-# 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

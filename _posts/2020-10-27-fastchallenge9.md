@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 9회차 미션
-"
+title: "자료구조/👉알고리즘 - 9(패캠강의)"
 date: 2020-10-27 22:33:00
 categories: fastcampus-challenge Algorithm-Note
 toc : true
@@ -106,6 +105,3 @@ n개의 요소를 가진 리스트라 할때,
 ## 마지막
 ![수강짤](/assets/images/fastchallenge/day9/수강인증.PNG)  
 사진 한장은 이걸로 채워야지 히히
-
-# 내가 듣는 인강
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

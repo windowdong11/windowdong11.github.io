@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 22회차 미션
-"
+title: "자료구조/👉알고리즘 - 22(패캠강의)"
 date: 2020-11-9 21:00:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -92,7 +91,3 @@ MST는 간선의 가중치 합이 최소인 스패닝 트리를 말한다.
 
 7일에 포스트 작성하고, 패캠에 안 올렸다가 챌린지 끊길뻔했다.  
 깜박하지 말아야지 :)
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

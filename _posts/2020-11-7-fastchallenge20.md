@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 20회차 미션
-"
+title: "자료구조/👉알고리즘 - 20(패캠강의)"
 date: 2020-11-7 21:30:00
 categories: fastcampus-challenge Algorithm-Note
 toc : true
@@ -91,7 +90,3 @@ $7 + 12 = 19$가 되는데
 -끝-
 
 ![수강](/assets/images/fastchallenge/day20/수강.PNG)
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

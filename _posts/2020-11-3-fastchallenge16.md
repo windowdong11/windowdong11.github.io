@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 16회차 미션
-"
+title: "자료구조/👉알고리즘 - 16(패캠강의)"
 date: 2020-11-3 19:00:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -98,7 +97,3 @@ A에서 C로 가는 경로 사이에 중복되는 노드가 없으므로, 단순
 
 피곤함 > 내용을 줄임 > 만족 못함 > 내용 채움 > 다음날 더 피곤함 > 내용을 줄임  
 대충 이런 사이클..ㅠㅠ
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

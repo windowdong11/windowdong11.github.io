@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 / 기술면접👉코딩테스트인강 100% 환급챌린지 7회차 미션
-"
+title: "👉자료구조/알고리즘 - 7(패캠강의)"
 date: 2020-10-25 20:20:00 +0400
 categories: fastcampus-challenge DataStructure-Note
 toc : true
@@ -232,7 +231,3 @@ tree.printbfs()
 ## 마지막
 
 구현은 내일하기로~  
-
-# 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**

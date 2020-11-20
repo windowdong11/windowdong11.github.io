@@ -1,6 +1,5 @@
 ---
-title: "[패스트캠퍼스 수강 후기] 알고리즘 기술면접👉코딩테스트인강 100% 환급챌린지 27회차 미션
-"
+title: "자료구조/👉알고리즘 - 23(패캠강의)"
 date: 2020-11-14 19:00:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
@@ -107,7 +106,3 @@ print(hd.peakitem())
 구조를 잘 만들어서 함수 내에서 다시 고치지 않도록 하는게 좋다고 생각한다.
 
 ![수강](/assets/images/fastchallenge/day27/수강.PNG)
-
-## 내가 듣는 인강
-
-**알고리즘 / 기술면접👉https://bit.ly/2FgOONG**
