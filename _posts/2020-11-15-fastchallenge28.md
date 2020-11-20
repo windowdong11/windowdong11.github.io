@@ -1,5 +1,5 @@
 ---
-title: "자료구조/👉알고리즘 - 23(패캠강의)"
+title: "자료구조/👉알고리즘 - 23"
 date: 2020-11-15 17:00:00
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
