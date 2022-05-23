@@ -1,6 +1,6 @@
 ---
 title: "Welcome to Jekyll!(테스트용 포스트)"
-date: 2020-08-14 17:10:00
+date: 2020-08-14 17:10:00 +0900
 categories: jekyll update
 comments: true
 ---

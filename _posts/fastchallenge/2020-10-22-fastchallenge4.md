@@ -1,6 +1,6 @@
 ---
 title: "자료구조/👉알고리즘 - 4"
-date: 2020-10-22 17:20:00 +0400
+date: 2020-10-22 17:20:00 +0900
 categories: fastcampus-challenge Algorithm-Note
 toc : true
 usemathjax: true

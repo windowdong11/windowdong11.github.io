@@ -1,6 +1,6 @@
 ---
 title: "기술면접-1"
-date: 2020-11-11 21:30:00
+date: 2020-11-11 21:30:00 +0900
 categories: fastcampus-challenge DataStructure-Note Algorithm-Note
 toc : true
 usemathjax: true

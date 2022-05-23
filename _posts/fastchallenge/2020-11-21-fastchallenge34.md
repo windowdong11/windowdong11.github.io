@@ -1,6 +1,6 @@
 ---
 title: "자료구조/👉알고리즘 - 34"
-date: 2020-11-21 18:00:00
+date: 2020-11-21 18:00:00 +0900
 categories: fastcampus-challenge Problem-Solving
 toc : true
 usemathjax: true

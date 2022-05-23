@@ -1,6 +1,6 @@
 ---
 title: "ABC175-C-풀이"
-date: yyyy-mm-dd HH:MM:SS +0400
+date: yyyy-mm-dd HH:MM:SS +0900
 categories: Algorithm-ps Atcoder-Beginner-Contest Math
 ---
 

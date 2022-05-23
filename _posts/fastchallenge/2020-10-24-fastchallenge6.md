@@ -1,6 +1,6 @@
 ---
 title: "👉자료구조/알고리즘 - 6"
-date: 2020-10-24 17:20:00 +0400
+date: 2020-10-24 17:20:00 +0900
 categories: fastcampus-challenge DataStructure-Note
 toc : true
 usemathjax: true

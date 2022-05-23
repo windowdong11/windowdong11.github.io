@@ -1,6 +1,6 @@
 ---
 title: "자료구조/👉알고리즘 - 13"
-date: 2020-10-31 10:20:00
+date: 2020-10-31 10:20:00 +0900
 categories: fastcampus-challenge Algorithm-Note
 toc : true
 usemathjax: true

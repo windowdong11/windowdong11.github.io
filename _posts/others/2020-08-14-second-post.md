@@ -1,6 +1,6 @@
 ---
 title: "안녕하세오 벌레에오..!"
-date: 2020-08-14 18:26:00 +0400
+date: 2020-08-14 18:26:00 +0900
 categories: diary algorithm-competition-log
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "ABC175-C-풀이"
-date: 2020-08-15 16:17:00 +0400
+date: 2020-08-15 16:17:00 +0900
 categories: Algorithm-ps Atcoder-Beginner-Contest Math FocusOnConstraints!
 ---
 

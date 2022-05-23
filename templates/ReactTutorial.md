@@ -1,6 +1,6 @@
 ---
 title: "React 한권 끝내기 (1)"
-date: 2020-10-20 12:20:00 +0400
+date: 2020-10-20 12:20:00 +0900
 categories: Tutorial-React
 toc : true
 ---
