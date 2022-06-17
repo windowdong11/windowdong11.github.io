@@ -70,4 +70,4 @@ db설계에 대해서는 잘 모르지만 블로그 글들을 보고 테이블�
 User와 Channel을 분리한 이유는, 채널을 관리하는 유저를 여러명 두도록 나중에 변경할 때 유용하도록 작성했고,  
 user_id를 Channel에 포함시킨 이유는 변경할 때, 쿼리를 어떻게 작성하는지 한번 고민해보고 싶어서 하나만 포함시켰다.  
 대표적으로 참고한 글들 : [db설계 틀 잡기](https://frozenpond.tistory.com/151), [정규화](https://3months.tistory.com/193)  
-![주문리스트](/assets/images/youtube_clone/youtube-erd.svg)
+![ERD](/assets/images/youtube_clone/youtube-erd.svg)
