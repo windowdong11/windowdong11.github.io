@@ -8,9 +8,9 @@ toc : true
 ## 요약
 ___
 
-- ERD 3차 변화
-- ERD 변경으로 인한 테이블 수정, 컬럼 추가 [Postgres Adding a Column](https://www.postgresql.org/docs/current/ddl-alter.html#DDL-ALTER-ADDING-A-COLUMN)  
-- 관계를 나타내는 테이블 작성
+1. ERD 3차 변화
+2. ERD 변경으로 인한 테이블 수정, 컬럼 추가 [Postgres Adding a Column](https://www.postgresql.org/docs/current/ddl-alter.html#DDL-ALTER-ADDING-A-COLUMN)  
+3. 관계를 나타내는 테이블 작성
 
 ## Foreign Key와 삭제, 변경 옵션
 ___
@@ -174,10 +174,17 @@ n:m관계라면 이렇게 했겠지만, 1:n관계이기에, `Comment`테이블�
 
 MATCH SIMPLE 옵션을 주면 null이 허용된다고 했는데, DEFAULT NULL이 안들어간다..?  
 일단 ALTER와 DROP을 통해서 NOT NULL을 없앴다.
+
+> **2022-06-20 수정**  
+> [serial을 FK로 사용하는 것은 맞지 않다.](https://stackoverflow.com/questions/25883982/can-a-serial-foreign-key-be-set-to-null)  
+> 위 글에 따라서 serial pk를 참조하는 컬럼을 모두 integer로 변경하기로 함 (4번째 포스트에서 진행)  
+> serial은 순차적으로 증가하는 기능을 지원하기 위한 타입이니, null이 존재하는 것이 모순이기도 하다.  
 ```sql
+/*2022-06-20 수정, 
 ALTER TABLE comment ADD COLUMN parent_comment_id serial REFERENCES comment(comment_id) MATCH SIMPLE ON DELETE CASCADE ON UPDATE CASCADE;
 ALTER TABLE comment ALTER COLUMN parent_comment_id DROP NOT NULL;
-ALTER TABLE comment ALTER COLUMN parent_comment_id SET DEFAULT NULL;
+ALTER TABLE comment ALTER COLUMN parent_comment_id SET DEFAULT NULL;*/
+ALTER TABLE comment ADD COLUMN parent_comment_id integer REFERENCES comment(comment_id) ON DELETE CASCADE ON UPDATE CASCADE;
 
 SELECT column_name, is_nullable FROM information_schema.columns WHERE table_name = 'comment';
 
@@ -204,11 +211,6 @@ ___
 () 괄호 안 숫자는 우선순위
 
 - (1)`created_at`와 `updated_at`를 자동으로 변경되고, 생성일이 유지될 수 있도록 함수와 트리거를 작성
-- (1) channel 삭제 -> channel_video 삭제
-- (1) channel 삭제 -> channel_post 삭제
-- (1) channel 삭제 -> channel_comment 삭제
-- (1) post 삭제 -> post_comment 삭제
-- (1) post 삭제 -> post
 
 ### 앞으로 할 것들 (진행 과정 이후)
 
