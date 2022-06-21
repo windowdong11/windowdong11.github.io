@@ -93,7 +93,7 @@ INSERT INTO video_type (video_type_text) VALUES ('original');
 INSERT INTO video_type (video_type_text) VALUES ('shorts');
 SELECT * FROM video_type; 
 
-CREATE DOMAIN positive_bigint AS integer CHECK (VALUE >= 0);
+CREATE DOMAIN positive_bigint AS biginteger CHECK (VALUE >= 0);
 CREATE TABLE video (
   video_id serial PRIMARY KEY,
   source text NOT NULL,
