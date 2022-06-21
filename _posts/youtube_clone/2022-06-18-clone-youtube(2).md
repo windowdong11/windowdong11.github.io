@@ -87,7 +87,8 @@ original과 shorts를 추가하고, `SELECT * FROM video_type`를 통해서 값�
 ```sql
 CREATE TABLE video_type (
   video_type_id smallserial PRIMARY KEY,
-  video_type_text varchar(10)
+  --[2022-06-21 수정] NOT NULL constraint 추가
+  video_type_text varchar(10) NOT NULL
 );
 INSERT INTO video_type (video_type_text) VALUES ('original');
 INSERT INTO video_type (video_type_text) VALUES ('shorts');
