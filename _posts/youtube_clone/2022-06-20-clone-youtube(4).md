@@ -150,6 +150,7 @@ mydb=# SELECT table_name, column_name, is_nullable, column_default from informat
 고쳐보자...  
 [Information Schema](https://www.postgresql.org/docs/current/information-schema.html) 여기서 참 많이 해멨다.   
 
+[2022-06-21] 아래 코드는 완전하지 않습니다. 4번째 포스트에서 문제 발견  
 ```sql
 do $$
 declare
@@ -163,7 +164,8 @@ begin
       WHERE constraint_type = 'FOREIGN KEY' and c.table_schema='public'
     loop
       if t.table_name='website_user' or t.column_name <> concat(t.table_name, '_id') then
-        execute 'alter table ' || t.table_name || ' alter column ' || t.column_name || ' DROP DEFAULT';
+        execute 'alter table ' || t.table_name || ' alter ' || t.column_name || ' DROP DEFAULT';
+        execute 'alter table ' || t.table_name || ' alter ' || t.column_name || ' DROP NOT NULL';
       end if;
     end loop;
 end$$;
