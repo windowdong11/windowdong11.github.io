@@ -101,7 +101,10 @@ CREATE TABLE video (
   description text NOT NULL,
   created_at timestamp NOT NULL DEFAULT now(),
   updated_at timestamp NOT NULL,
-  video_type_id serial REFERENCES video_type(video_type_id)
+  --[2022-06-21 수정]
+  -- 타입을 잘못 적었다. 4번째 포스트에서 수정
+  -- video_type_id serial REFERENCES video_type(video_type_id)
+  video_type_id smallserial REFERENCES video_type(video_type_id)
 );
 ```
 
