@@ -164,13 +164,12 @@ begin
     loop
       if t.table_name='website_user' or t.column_name <> concat(t.table_name, '_id') then
         execute 'alter table ' || t.table_name || ' alter ' || t.column_name || ' DROP DEFAULT';
-        execute 'alter table ' || t.table_name || ' alter ' || t.column_name || ' DROP NOT NULL';
       end if;
     end loop;
 end$$;
 -- 위 코드로 다 지워지지 않아 남은 것들만 해결
-ALTER TABLE channel_subscriber ALTER subscribed_channel_id DROP NOT NULL;
-ALTER TABLE channel_subscriber ALTER subscriber_channel_id DROP NOT NULL;
+ALTER TABLE channel_subscriber ALTER subscribed_channel_id DROP DEFAULT;
+ALTER TABLE channel_subscriber ALTER subscriber_channel_id DROP DEFAULT;
 ```
 
 ## 마지막
