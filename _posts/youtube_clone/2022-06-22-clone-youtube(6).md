@@ -8,7 +8,6 @@ toc : true
 ## 요약
 
 1. 참조관계, CASCADE 확인
-2. init.sql 작성
 
 ## CASCADING 확인
 
@@ -27,12 +26,6 @@ select
     or refobjid = 'post'::regclass
     or refobjid = 'comment'::regclass
     or refobjid = 'image'::regclass
-    and deptype = 'n';
-select 
-    pg_describe_object(classid, objid, objsubid), 
-    pg_get_constraintdef(objid)
-  from pg_depend 
-  where refobjid = 'website_user'::regclass
     and deptype = 'n';
 -- 또는 \d {테이블 명}
 ```
