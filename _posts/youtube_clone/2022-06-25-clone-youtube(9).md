@@ -16,32 +16,36 @@ ___
 
 node v18에 test runner 내장 기능이 추가되었다. [문서](https://nodejs.org/dist/latest-v18.x/docs/api/test.html)  
 그 전에는 jest등 외부 패키지를 사용했지만, 이 기능을 사용해서 테스트 코드를 작성할 수 있다.  
-단, 어디까지나 실험적 기능이다.  
+현재는 실험적 기능이다.  
 
-`package.json`내용에 test 스크립트를 추가할 것이다.  
+테스트 코드 파일의 이름 생성 규칙을 `*.test.ts`로 정하고, typescript를 javascript로 빌드할 때, 포함되지 않도록 `tsconfig.build.json`를 작성할 것이다.  
+> tsconfig.json에 작성하지 않는 이유  
+> vscode에서 tsconfig.json기준으로 인식하기에, exclude를 포함시키는 경우, 모듈을 import하는 데에서 오류가 발생한다.  
+> 따라서, exclude를 tsconfig.build.json에 포함시키고 extends를 통해서 tsconfig.json에서 설정을 불러올 것이다.  
+> 결과적으로 vscode에서는 exclude된 것을 알 수 없고,
+> 빌드할 때 tsconfig.build.json의 exclude로 인해 테스트 파일들은 js로 변환되지 않는다.
+```json
+{
+  "compilerOptions": {/*...(생략)*/},
+  "exclude": ["src/**.test.ts"]
+}
+```
+
+`package.json`내용에 test 스크립트를 추가  
 ```json
 {
   //... (생략)
   "scripts": {
-    "start": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./dist/src/index.js\"",
-    "test": "node --test --require ts-node/register ./test/*.test.ts"
+    "start": "tsc-watch --noClear -p ./tsconfig.build.json --onSuccess \"node ./dist/src/index.js\"",
+    "test": "node --test --require ts-node/register src/**.test.ts"
   },
   //... (생략)
 }
 ```
 
-테스트 코드 파일의 이름 생성 규칙은 `*.test.ts` 이렇게 할 것이다.  
-typescript를 javascript로 빌드할 때 파일이 포함되지 않도록 `tsconfig.json` 또한 변경할 것이다.  
-```json
-{
-  "compilerOptions": {/*...(생략)*/},
-  "exclude": ["**/*.test.ts"]
-}
-```
-
 
 문서에 작성된 예시를 그대로 가져와서 가장 기본적인 테스트 코드를 작성하고, 실행해보면,   
-`test/pass.test.ts`  
+`src/pass.test.ts`  
 ```ts
 import assert from "node:assert";
 import test from "node:test";
@@ -50,7 +54,7 @@ test('synchronous passing test', (t) => {
   assert.strictEqual(1, 1);
 });
 ```
-`test/fail.test.ts`  
+`src/fail.test.ts`  
 ```ts
 import assert from "node:assert";
 import test from "node:test";
@@ -64,10 +68,10 @@ test('synchronous fail test', (t) => {
 ~> npm test
 
 > youtube-clone-back@1.0.0 test
-> node --test --require ts-node/register ./test/*.test.ts
+> node --test --require ts-node/register ./src/**.test.ts
 
 TAP version 13
-not ok 1 - /Users/wondong-gyu/youtube-clone/youtube-clone-back/test/fail.test.ts
+not ok 1 - /Users/wondong-gyu/youtube-clone/youtube-clone-back/src/fail.test.ts
   ---
   duration_ms: 0.618648458
   failureType: 'subtestsFailed'
@@ -85,12 +89,12 @@ not ok 1 - /Users/wondong-gyu/youtube-clone/youtube-clone-back/test/fail.test.ts
         
       code: 'ERR_ASSERTION'
       stack: |-
-        TestContext.<anonymous> (/Users/wondong-gyu/youtube-clone/youtube-clone-back/test/fail.test.ts:5:10)
+        TestContext.<anonymous> (/Users/wondong-gyu/youtube-clone/youtube-clone-back/src/fail.test.ts:5:10)
         Test.runInAsyncScope (node:async_hooks:203:9)
         Test.run (node:internal/test_runner/test:342:20)
         Test.start (node:internal/test_runner/test:294:17)
         Test.test (node:internal/test_runner/harness:126:18)
-        Object.<anonymous> (/Users/wondong-gyu/youtube-clone/youtube-clone-back/test/fail.test.ts:4:5)
+        Object.<anonymous> (/Users/wondong-gyu/youtube-clone/youtube-clone-back/src/fail.test.ts:4:5)
         Module._compile (node:internal/modules/cjs/loader:1112:14)
         Module.m._compile (/Users/wondong-gyu/youtube-clone/youtube-clone-back/node_modules/ts-node/src/index.ts:1597:23)
         Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
@@ -111,7 +115,7 @@ not ok 1 - /Users/wondong-gyu/youtube-clone/youtube-clone-back/test/fail.test.ts
   error: 'test failed'
   code: 'ERR_TEST_FAILURE'
   ...
-ok 2 - /Users/wondong-gyu/youtube-clone/youtube-clone-back/test/pass.test.ts
+ok 2 - /Users/wondong-gyu/youtube-clone/youtube-clone-back/src/pass.test.ts
   ---
   duration_ms: 0.597262333
   ...
