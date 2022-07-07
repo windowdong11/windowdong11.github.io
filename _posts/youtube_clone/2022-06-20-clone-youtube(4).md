@@ -109,8 +109,7 @@ mydb=# SELECT column_name, data_type, is_nullable FROM information_schema.column
  description   | text                        | NO
 ```
 
-??????  
-이미 `integer`타입이다.  
+분명 `serial` 타입으로 작성했는데, `integer`타입이다.(???)  
 `serial`타입은 `interger`타입의 일종이라 그런 것인데, auto increment 기능과 not null 제약조건까지 추가된 것이다.  
 auto increment는 기본값 설정과 관련이 있다.  
 설마 `serial`타입의 FK인 모든 컬럼에게 `nextval()`이 적용된 것은 아닐까..?  
