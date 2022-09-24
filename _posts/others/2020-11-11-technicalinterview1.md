@@ -1,7 +1,7 @@
 ---
 title: "기술면접-1"
 date: 2020-11-11 21:30:00 +0900
-categories: fastcampus-challenge DataStructure-Note Algorithm-Note
+categories: tech-interview
 toc : true
 usemathjax: true
 ---
@@ -51,8 +51,15 @@ worker에서 처리한다.
 
 proxy : 대리  
 
+추가 : ~ 2022-09-30
+## 도커, 컨테이너
 
+도커는 앱을 배포할 때 컨테이너로 묶어서 배포
 
-## , 도커, 컨테이너, 함수형 프로그래밍, orm, odm
+## 함수형 프로그래밍
 
-내일 추가예정
+따로 정리해야할듯
+
+## orm, odm
+
+db운용
