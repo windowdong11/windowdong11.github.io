@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://windowdong11.github.io/sitemap.xml
