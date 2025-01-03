@@ -5,6 +5,7 @@ import { format } from 'date-fns';
 
 // 현재 실행 위치에서 Jekyll `_posts` 디렉터리 경로 설정
 const POSTS_DIR = path.resolve(process.cwd(), '_posts');
+const LAST_WORKING_DATA_FILE = path.resolve(process.cwd(), 'utils', 'last_working_data.json');
 
 // 소문자 변환 및 공백을 언더바로 치환하는 함수
 const sanitize = (str) => str.toLowerCase().replace(/\s+/g, '_');
@@ -77,6 +78,9 @@ toc : true
         await fs.writeFile(filePath, content);
 
         console.log(`✅ Post created at: ${filePath}`);
+
+        // Save working file name to last_working_data.json
+        await fs.writeJson(LAST_WORKING_DATA_FILE, { lastWorkingFile: filePath });
     } catch (error) {
         console.error('❌ Error:', error.message);
     }

@@ -31,3 +31,6 @@ _site
 
 # Visual Studio Code
 *.code-workspace
+
+# custom
+utils/last_working_data.json

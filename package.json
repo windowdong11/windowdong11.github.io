@@ -33,6 +33,8 @@
     "add-banner": "node banner.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify && npm run add-banner",
-    "post:create": "node utils/post-create.mjs"
+    "post:create": "node utils/post-create.mjs",
+    "post:moveimages": "node utils/post-moveimage.mjs",
+    "post:done": "npm run post:moveimages"
   }
 }
